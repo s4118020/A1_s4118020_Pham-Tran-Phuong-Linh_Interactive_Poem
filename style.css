@@ -1,0 +1,224 @@
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: auto;
+position: relative;
+background: black;
+overflow-x: hidden;
+box-sizing: border-box;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.title {
+position: relative;
+  position: relative;
+  width: 100%;
+  height: 1024px; 
+  overflow: hidden;
+font-size: 36px;
+font-family: Owners Wide;
+font-weight: 700;
+word-wrap: break-word;
+text-shadow: 4px 3px 0px rgba(0, 0, 0, 1.00);
+}
+
+.Houseparallax {
+  position: relative;
+    width: 100%;
+  height: 2000px;
+  overflow: hidden;
+}
+
+.bar {
+  position: relative;
+    width: 100%;
+  height: 1105px;
+  overflow: hidden;
+   text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+.meet {
+     position: relative;
+    width: 100%;
+  height: 1024px;
+  overflow: hidden;
+   text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+.introduction {
+    position: relative;
+    width: 100%;
+  height: 1235px;
+  overflow: hidden;
+}
+
+.iky {
+    position: relative;
+    width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}
+
+.dialogue {
+    position: relative;
+    width: 100%;
+  height: 3010px;
+  overflow: hidden;
+   text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+.end {
+     position: relative;
+    width: 100%;
+  height: 1542px;
+  overflow: hidden;
+}
+
+.parallax-wrapper {
+  position: relative;
+  height: 3000px;}
+
+.parallax-wrapper img {
+  position: absolute;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.billyhidden {opacity: 0%;
+transition: opacity 0.5s ease;}
+
+.billyhidden:hover{
+    opacity: 100%;
+}
+
+.midhouse {
+  position: absolute;}
+
+.audiotoggle {
+  width: 80px;
+  height: 102px;
+  transition: all 0.2s ease;
+  left: 1305px; top: 58px; position: absolute;
+}
+
+.audiotoggle:hover {
+  cursor: pointer;
+transform: scale(1.3);
+}
+
+.eye-box {
+  position: relative;
+  width: 100px; /* size of the area */
+  height: 40px;
+  top: 590px;
+  left: 270px;
+  border: 10px solid transparent; /* optional border */
+}
+
+#eyeball {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  left: 35px;
+  top: 35px;
+  pointer-events: none;
+  transition: top 0.05s, left 0.05s;
+}
+
+.two {
+    transition-duration: 0.5s;
+    width: 493.68px;
+    height: 545.97px;
+    left: 122.17px;
+    top: 159px;
+    position: absolute;
+    color: #F3C357;
+    font-size: 48px;
+    font-family: Blambot Casual;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    opacity: 0%;
+    transition-duration: 0.5s;
+}
+
+.one {transition-duration: 0.5s;
+width: 519px;
+height: 688px;
+left: 201px;
+top: 116px;
+ position: absolute}
+
+#main:hover .two {opacity: 100%;}
+
+.twob {
+    width: 475px;
+    height: 448px;
+    left: 836px;
+    top: 220px;
+    position: absolute;
+    text-align: right;
+    color: #DB2730;
+    font-size: 64px;
+    font-family: Beelzebrush BB;
+    font-style: italic;
+    font-weight: 400;
+    word-wrap: break-word;
+    opacity: 0%;
+    transition-duration: 0.5s;
+}
+
+.oneb {
+    width: 443px;
+    height: 674px;
+    left: 715px;
+    top: 187px;
+    position: absolute;
+}
+
+#main2:hover .twob {opacity: 100%;}
+
+.thedevil {
+  position: fixed;
+  top: 297px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1200px;
+  height: 350px;
+  z-index: 999; 
+  pointer-events: none;
+}
+
+.animate-from-news {
+  transition: all 1s ease;
+  opacity: 0;
+  transform: translate(100px, 100px) scale(0.5); 
+}
+
+.intro-revealed .animate-from-news {
+  opacity: 1;
+  transform: translate(0, 0) scale(1); 
+}
+
+.falling {
+  transition: top 0.5s linear;
+}
+
+#click-video:hover {
+  cursor: pointer;
+}
